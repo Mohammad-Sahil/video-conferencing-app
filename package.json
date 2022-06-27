@@ -1,0 +1,12 @@
+{
+  "name": "video-conferencing-app",
+  "version": "1.0.0",
+  "description": "A Video Conference web-app\r * Hosting URL: *[video-conferencing-app](https://video-conferencing-app.herokuapp.com/)*",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
