@@ -17,7 +17,7 @@ app.get('/', (req,res) => {
 })
 
 // specify url for peer server
-app.use('/peerjs',peerServer);
+app.use('/peerjs', peerServer);
 
 
 app.get('/:room', (req,res) => {
@@ -27,7 +27,11 @@ app.get('/:room', (req,res) => {
 io.on('connection', socket => {
     socket.on('join-room', (roomId, userId) => {
        socket.join(roomId)
-       socket.to(roomId).emit('user-connected', userId)
+       socket.to(roomId).emit('user-connected', userId);
+
+       socket.on('disconnect', () => {
+        socket.to(roomId).emit('user-disconnected', userId);
+       })
     })
 })
 
