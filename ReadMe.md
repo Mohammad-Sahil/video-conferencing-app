@@ -1,6 +1,7 @@
-## Zoom Clone
-A Video Conference web-app
-* Hosting URL: *[video-conferencing-app](https://video-conferencing-app.herokuapp.com/)* 
+
+## A Video Conference web-app
+
+* Hosting URL: *[video-conferencing-app](https://video-conferencing-appp.herokuapp.com/)* 
 
 <!-- ![zoom-clone](https://user-images.githubusercontent.com/17775859/95357816-f66fff00-08e5-11eb-9270-70144a008f37.JPG) -->
 
